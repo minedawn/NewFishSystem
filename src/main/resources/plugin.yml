@@ -1,0 +1,8 @@
+name: NewFishSystem
+version: '${project.version}'
+main: wiki.dawn.newfishsystem.NewFishSystem
+api-version: '1.13.2'
+commands:
+  newfishsystem:
+    usage: /nfs
+    aliases: [ nfs ]
