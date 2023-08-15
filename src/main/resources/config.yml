@@ -1,0 +1,51 @@
+# 是否在所有世界启用
+isEnabledInAllWorlds: true
+
+# 分世界启用本插件，仅isEnabledInAllWorlds: false时生效
+# 需要开启的世界
+# 样例：
+world:
+  - world
+  - world_zy
+  - world_sc
+
+
+# 是否启用自定义钓鱼奖励和概率
+isCustomItemsEnabled: false
+
+# 这里配置玩家钓到的物品和权重
+# 仅isCustomItemsEnabled: true时生效
+# 格式为 物品名称: 权重
+# 权重必须填写整数,越高越容易被抽中
+# 物品名称不需要加“minecraft:”
+# 请严格按照此格式填写
+# 样例：
+items:
+  salmon: 20
+  cod: 70
+  tropical_fish: 5
+  pufferfish: 5
+
+
+# 钓鱼成功的消息配置
+# 设置多条消息时会随机发送一条
+# 不设置时不发送消息
+fish_success_messages:
+  - "§b恭喜！你成功钓到了一条鱼！"
+  - "§b哇！钓上了好东西！"
+  - "§b成功钓到鱼啦！继续加油！"
+  - "§b哦！这次收获不错呢！"
+
+# 钓鱼失败的消息配置
+# 设置多条消息时会随机发送一条
+# 不设置时不发送消息
+fish_failure_messages:
+  - "§b很遗憾，这次没有钓到鱼。再试一次吧！"
+  - "§b这次的鱼儿逃走了，不过下次一定能行！"
+  - "§b运气不太好，没有钓到鱼。继续努力！"
+
+# 鱼上钩的消息配置
+# 设置多条消息时会随机发送一条
+# 不设置时不发送消息
+fish_caught_messages:
+  - "§b鱼儿上钩了，点按右键使进度保持在合适的力量范围"
